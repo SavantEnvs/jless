@@ -1,0 +1,6 @@
+project: savantenvs/jless
+target: jsonparser
+
+cmds:
+  - cmd: /mayhem/jsonparser
+    libfuzzer: true
