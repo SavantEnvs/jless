@@ -1,0 +1,7 @@
+project: savantenvs/jless
+target: jsonparser-buggy-mhh-run-14
+# origin: https://app.mayhem.security/mayhemheroes/jless/jsonparser/14
+
+cmds:
+  - cmd: /mayhem/jsonparser
+    libfuzzer: true
